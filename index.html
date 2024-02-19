@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>개인포트폴리오 홈페이지 제작(scroll layout)</title>
+
+  <!-- 초기화 -->
+  <link href="./css/reset.css" type="text/css" rel="stylesheet">
+
+  <!-- 기본서식 -->
+  <link href="./css/base.css" type="text/css" rel="stylesheet">
+
+  <!-- 메인서식 -->
+  <link href="./css/main.css" type="text/css" rel="stylesheet">
+
+  <!-- 아이콘폰트 -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+
+  <!-- 제이쿼리 라이브러리 -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
+
+  <!-- 제이쿼리 UI라이브러리 -->
+  <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+</head>
+<body>
+  <!-- 헤더영역 시작 -->
+  <header>
+
+    <div id="intro">
+      
+      <div class="m_intro">
+      <p>WEB PUBLISHER <img src="./images/Arrow 1.png" alt="화살표"></p>
+      
+      <h2>KIM <br>BO KYEONG's PORTFOLIO</h2>
+      <p class="text01">뻗어가는 길처럼 목적을 달성하기 위해 끝없이 도전하고 성장하는 웹디자이너 김보경입니다.</p>
+      <img src="./images/Arrow 2.png" alt="왼쪽 화살표">
+    </div>
+      <img src="./images/image 5.png" alt="숲">
+    </div>
+    <ul class="word2">
+      <li>IN THE MIDDLE OF DIFFICULTY LIES OPPORTUNITY</li>
+      <li>IN THE MIDDLE OF DIFFICULTY LIES OPPORTUNITY</li>
+      <li>IN THE MIDDLE OF DIFFICULTY LIES OPPORTUNITY</li>
+    </ul>
+    <div class="scroll_btn">
+      <i class="fas fa-mouse"></i><br>
+      scroll
+    </div>
+  </header>
+
+  <nav class="gnb">
+    <ul>
+      <li><a href="#" title="내소개">profile</a></li>
+      <li><a href="#" title="식음료">project1</a></li>
+      <li><a href="#" title="여행">profile2</a></li>
+      <li><a href="#" title="뷰티_헬스케어">profile3</a></li>
+      <li><a href="#" title="디자인">ui/ux design</a></li>
+      <li><a href="#" title="나에게 연락하기">contact</a></li>
+    </ul>
+  </nav>
+
+  <!-- 메인영역 시작 -->
+  <main>
+    <section id="profile">
+      <h2>PROFILE</h2>
+      <div class="green1"></div>
+      <img src="./images/profile.jpg" alt="프로필사진">
+      <div class="green2"></div>
+      <div class="text02">
+      <ul class="left">
+        <li><h3 class="name">김보경</h3></li>
+        <li><h4>ABOUT ME</h4></li>
+        <li>BIRTH 2001.05.19</li>
+        <li>PHONE 82+10 3845 0539</li>
+        <li>EMAIL bokyeong2018@gmail.com</li>
+        <li><h4>CERTIFICATE</h4></li>
+        <li>웹디자인기능사 필기시험</li>
+        <li>GTQ그래픽기술자격 1급</li>
+        <li>영어 TOEIC 935</li>
+        <li>불어 B2</li>
+      </ul>
+      <ul class="right">
+        <li><h4>EDUCATION</h4></li>
+        <li>2023.09-2024.02<br>(디지털디자인)UI/UX반응형 웹디자인&웹퍼블리셔(코딩)개발자2 -<br>그린컴퓨터아트학원</li>
+        <li>2023.09-2023.09 <br>피그마를 활용한 화면설계 와이어프레임- 그린컴퓨터아트학원</li>
+        <li>2019.09-2023.07 <br>홍콩대학교 심리학과 마케팅과 졸</li>
+        <li>2017.02-2019.05 <br>카이저고등학교 졸</li>
+      </ul></div>
+      <h4 class="text03">SKILL</h4><br>
+      <ul class="progress">
+        <li>HTML<div class="bar2"><span class="bar">&nbsp;</span></div> 80%</li>
+        <li> CSS<div class="bar2"><span class="bar">&nbsp;</span></div>80% </li>
+        <li> Javascript<div class="bar2"><span class="bar">&nbsp;</span></div>30% </li>
+        <li> jQuery<div class="bar2"><span class="bar">&nbsp;</span></div>40% </li>
+        <li>Sass<div class="bar2"><span class="bar">&nbsp;</span></div>40% </li>
+        <li>Git<div class="bar2"><span class="bar">&nbsp;</span></div>40%</li>
+        <li>Photoshop<div class="bar2"><span class="bar">&nbsp;</span></div>70% </li>
+        <li> Illustrator<div class="bar2"><span class="bar">&nbsp;</span></div>60% </li>
+        <li> Bootstrap<div class="bar2"><span class="bar">&nbsp;</span></div>30% </li>
+        <li> 기획<div class="bar2"><span class="bar">&nbsp;</span></div>70% </li>
+        <li> UI/UX 디자인<div class="bar2"><span class="bar">&nbsp;</span></div>60% </li>
+        <li> 그누보드<div class="bar2"><span class="bar">&nbsp;</span></div>20% </li>
+      </ul>
+     
+    </section>
+    <section id="project1">
+      <h2>PROJECT#1</h2>
+      <img src="./images/davich.png" alt="다비치 로고" class="logo1">
+      <img src="./images/mockup1.png" alt="다비치 목업" class="mockup1">
+      <div class="description1">
+      <ul class="detail1">
+        <li><span class="text04">사이트명</span>Davich</li>
+        <li><span class="text04">제작기간</span>01.12~01.25</li>
+        <li><span class="text04">제작물</span>반응형 메인페이지</li>
+        <li><span class="text04">컬러 컨셉</span>다이나믹한,강인한,기운찬</li>
+        <li><span class="text04">컬러</span><div class="blue">&nbsp;</div><div class="white">&nbsp;</div><div class="black">&nbsp;</div></li>
+      </ul>
+      <ul class="detail2">
+        <li><h4 class="text04">목적</h4></li>
+        <li>사용자 경험을 향상시키기 위해 적응형 메인 페이지를 반응형으로 개선했습니다.</li>
+        <li><h4 class="text04">사용한 툴</h4></li>
+        <li>
+          <img src="./images/coding.png" alt="코딩">
+          <img src="./images/jquery.png" alt="제이쿼리">
+          <img src="./images/figma.png" alt="피그마">
+          <img src="./images/vs-code.png" alt="vs-code">
+          <img src="./images/git.png" alt="git">
+          <img src="./images/ps.png" alt="photoshop">
+        </li>
+      </ul></div>
+      <div class="button">
+      <a href="#" title="기획서" class="plan">기획서</a>
+      <a href="#" title="웹사이트 바로가기" class="website">웹사이트 바로가기</a></div>
+    </section>
+    <section id="project2">
+      <h2>PROJECT#2</h2>
+      <img src="./images/mango-logo.png" alt="다비치 로고" class="logo2">
+      <img src="./images/mockup3.png" alt="다비치 목업" class="mockup2">
+      <div class="description2">
+      <ul class="detail3">
+        <li><span class="text04">사이트명</span>Mango</li>
+        <li><span class="text04">제작기간</span>11.30~01.11</li>
+        <li><span class="text04">제작물</span>반응형 메인페이지</li>
+        <li><span class="text04">컬러 컨셉</span>모던한, 기능적인 세련된</li>
+        <li><span class="text04">컬러</span><div class="black2">&nbsp;</div><div class="orange">&nbsp;</div><div class="white2">&nbsp;</div></li>
+      </ul>
+      <ul class="detail4">
+        <li><h4 class="text04">목적</h4></li>
+        <li>적응형 메인페이지를 반응형으로 개선하고 제품 판매에 중점이<br> 되어있는 온라인 스토어보다 정보 제공용 웹사이트을 제작했습니다.</li>
+        <li><h4 class="text04">사용한 툴</h4></li>
+        <li>
+          <img src="./images/coding.png" alt="코딩">
+          <img src="./images/jquery.png" alt="제이쿼리">
+          <img src="./images/figma.png" alt="피그마">
+          <img src="./images/vs-code.png" alt="vs-code">
+          <img src="./images/git.png" alt="git">
+          <img src="./images/ps.png" alt="photoshop">
+          <img src="./images/ai.png" alt="illustrator">
+        </li>
+      </ul></div>
+      <div class="button">
+      <a href="#" title="기획서" class="plan">기획서</a>
+      <a href="#" title="웹사이트 바로가기" class="website">웹사이트 바로가기</a></div></section>
+    <section id="project3">
+      <h2>PROJECT#3</h2>
+      <img src="./images/exhibitlogo.svg" alt="다비치 로고" class="logo3">
+      <img src="./images/mockup2.png" alt="다비치 목업" class="mockup3">
+      <div class="description3">
+      <ul class="detail5">
+        <li><span class="text04">사이트명</span>엑시빗뮤지엄</li>
+        <li><span class="text04">제작기간</span>10.12~11.29</li>
+        <li><span class="text04">제작물</span>메인페이지, 로그인, 회원가입, 서브페이지</li>
+        <li><span class="text04">컬러 컨셉</span>다이나믹한, 개성적인, 모던한</li>
+        <li><span class="text04">컬러</span><div class="pink">&nbsp;</div><div class="black3">&nbsp;</div><div class="white3 ">&nbsp;</div></li>
+      </ul>
+      <ul class="detail6">
+        <li><h4 class="text04">목적</h4></li>
+        <li>사용자가 쉽게 원하는 미술전시회를 찾을 수 있는 새로운 미술전시회 사이트를 제작했습니다.<br> 저를 포함한 3명의 팀으로 로고, 메인페이지, 로그인, 회원가입 및 서브페이지를 디자인하고 <br> 개발하였습니다. 저는 로고 디자인과 메인페이지를 완성했습니다. </li>
+        <li><h4 class="text04">사용한 툴</h4></li>
+        <li>
+          <img src="./images/coding.png" alt="코딩">
+          <img src="./images/jquery.png" alt="제이쿼리">
+          <img src="./images/figma.png" alt="피그마">
+          <img src="./images/vs-code.png" alt="vs-code">
+          <img src="./images/git.png" alt="git">
+          <img src="./images/ps.png" alt="photoshop">
+          <img src="./images/filezilla.png" alt="filezilla" class="filezilla">
+        </li>
+      </ul></div>
+      <div class="button">
+      <a href="#" title="기획서" class="plan">기획서</a>
+      <a href="#" title="웹사이트 바로가기" class="website">웹사이트 바로가기</a></div>
+    </section>
+    <section id="design">
+      <h2>UI/UX DESIGN</h2>
+      <img src="./images/background1.png" alt="background1" class="bg1">
+      <div class="m_item">
+      <div class="item1"><img src="./images/design1.jpg" alt="디자인1"></div>
+      <div class="item2"><img src="./images/design2.jpg" alt="디자인2"></div>
+      <div class="item3"><img src="./images/design3.jpg" alt="디자인3"></div>
+      <div class="item4"><img src="./images/design4.jpg" alt="디자인4"></div>
+      <div class="item5"><img src="./images/design5.jpg" alt="디자인5"></div>
+      <div class="item6"><img src="./images/design6.jpg" alt="디자인6"></div>
+    </div>
+    </section>
+    <section id="contact">
+      <img src="./images/WORD3.png" alt="단어2" class="word3">
+      <img src="./images/WORD2.png" alt="단어3" class="word4">
+      <div class="image"></div>
+      <div class="box01">
+        <h2>CONTACT</h2>
+        <p><span>PHONE</span>010-3845-0539</p>
+        <p><span>EMAIL</span>bokyeong2018@gmail.com</p>
+        <p>"끝없이 도전하고 성장하는 웹퍼블리셔가 <br>되겠습니다."</p>
+      </div>
+    </section>
+  </main>
+
+  <!-- 푸터영역 시작 -->
+  <footer>
+    <p>이 페이지는 해상도 1920*768px에 최적화되어 있습니다. 웹표준, 웹접근성을 준수합니다.</p>
+    <address>copyright&copy;2024 0000 allrights reserved.</address>
+  </footer>
+
+  <!-- 제이쿼리 -->
+  <script>
+    $(document).ready(function(){
+
+      // 제목 날아오게 하기
+      $('#intro h2').animate({'left':'50%'},400, 'easeOutElastic').addClass('ani01');
+
+        //스크롤 버튼 클릭시 프로필 페이지를 상단으로 올라오게 한다.
+        $('.scroll_btn').click(function(){
+          //html,body태그가 있는 상단까지 profile의 위쪽을 끌어올린다.
+          $('html, body').animate({'scrollTop':$('#profile').offset().top},300);
+        })
+      //스크롤동작시 스크롤값 표시하기
+      $(window).scroll(function(){
+
+        let sPos = $(this).scrollTop();
+        console.log(sPos); //스크롤값이 얼마면 내비게이션을 고정을 해야할지 값 알아보기  870px
+
+        if(sPos>=870){
+          $('.gnb').addClass('act');
+        }else{
+          $('.gnb').removeClass('act');
+        }
+        $('.gnb li a').removeClass('act2');
+
+         //section에 각각 offset().top이 0일때
+        $('main section').each(function(i){
+          //해당 li a태그에 act2서식을 적용하여 현재위치를 표시한다.
+          let top = $(this).offset().top-400;
+
+          if(sPos>=top){ //스크롤값이 section이 떨어진 값보다 크면
+            $('.gnb li a').removeClass('act2'); //메뉴에 act2 서식을 적용하고
+            $('.gnb li').eq(i).find('a').addClass('act2'); //메뉴서식을 제거한다.
+          }
+        });
+      });    
+      //메뉴 클릭시 인덱스값을 구해서 인덱스번호에 해당하는 n번째 section을 선택하여  화면위로 스크롤하여 올라오게 한다.
+
+      let gnb = $('.gnb ul li');
+      let i;
+
+      gnb.click(function(){
+        i = $(this).index();
+        console.log(i); //인덱스값 출력하기 0,,1,2,3,4,5
+
+        $('html, body').stop().animate({scrollTop:$('main section').eq(i).offset().top},500, 'easeOutQuint');
+
+        return false; //새로고침 방지
+      });
+
+      let left = -943;
+      function moveLeft(){
+        $('.word2').css('left',left);
+        left-=2;
+        if (left==-943){
+          $('.word2>li:first-child').insertAfter('.word2>li:last-child');
+        }else if(left==-1889){
+          left=-943;
+        }
+    };
+      let Timer = setInterval(moveLeft, 100);
+    });
+  </script>
+
+</body>
+</html>
