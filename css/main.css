@@ -314,6 +314,7 @@ section {
 
 .progress > li {
   font-size: 18px;
+  width: 300px;
 }
 
 .progress > li:nth-child(5), .progress > li:nth-child(6), .progress > li:nth-child(7), .progress > li:nth-child(8) {
@@ -452,21 +453,29 @@ section {
 
 .blue {
   background: #0056AA;
-  border-radius: 50%;
+  border-radius: 100%;
   width: 45px;
+}
+
+.code1 {
+  font-size: 16px;
 }
 
 .white {
   background: #F9F9F9;
-  border-radius: 50%;
+  border-radius: 100%;
   width: 45px;
   border: 1px solid #333;
 }
 
 .black {
   background: #333;
-  border-radius: 50%;
+  border-radius: 100%;
   width: 45px;
+}
+
+.color01 {
+  float: left;
 }
 
 .detail1 > li:last-child > div {
