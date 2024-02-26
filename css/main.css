@@ -1,5 +1,5 @@
 @charset "UTF-8";
-@import url("https://fonts.googleapis.com/css2?family=Gugi&display=swap");
+
 header {
   width: 100%;
   height: 94.6vh;
@@ -263,8 +263,8 @@ section {
   position: absolute;
   width: 360px;
   height: 450px;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+  object-fit: cover;
   float: left;
   z-index: 11;
 }
@@ -686,8 +686,8 @@ section {
 .m_item > div > img {
   width: 100%;
   height: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
+  object-fit: cover;
+  object-fit: cover;
 }
 
 .m_item > div:hover img {
