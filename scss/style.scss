@@ -20,19 +20,18 @@ body {
     font-size: 20px;
 }
 .font-size-xl {
-    font-size: 45px;
+    font-size: 55px;
 }
 header, #intro, .gnb, section {
     width: $fullwidth;
 }
 #intro {
-    position: relative;
-    height: 800px;
+    height: 700px;
 }
 .gnb {
     position: fixed;
     top: 0px;
-    background: #e9fb8f;
+    background: #97cfe8;
     z-index: 1000;
     max-width: 1920px;
     min-width: 1280px;
@@ -46,4 +45,24 @@ header, #intro, .gnb, section {
 }
 .project-img-size {
     width: 80%;
+}
+.outer-large-padding {
+    padding: 96px;
+}
+.padding-y-axis {
+    padding: 0px 96px;
+}
+.btn-outline-blue {
+    color: #02a1eb;
+    border: 1px solid #02a1eb;
+}
+.btn-outline-blue:hover {
+    background-color: #02a1eb;
+    color: fff;
+}
+.text-blue {
+    color: #02a1eb;
+}
+.text-blue:hover {
+    color:#0077ae;
 }
