@@ -20,12 +20,12 @@ section, #intro {
     @include outer-large-padding
 }
 #intro, #contact {
-    height: 800px;
+    height: 700px;
 }
 .small-circle-blue {
     background: #74bddd;
-    width: 15px;
-    height: 15px;
+    width: 50px;
+    height: 50px;
 }
 .full-height {
     height: $fullsize;
@@ -102,4 +102,63 @@ section, #intro {
 }
 .font-size-xxl {
     font-size: 61px;
+}
+.intro-position {
+    z-index: 4;
+    top: $zerovalue;
+    left: $zerovalue;
+    width: $fullsize;
+}
+.intro-first-circle {
+    right: -10px; 
+    top: -200px;
+    z-index: 3;
+    width: 650px;
+    height: 650px;
+    background: #e5f2fa;
+}
+.intro-second-circle {
+    left: 0px; 
+    bottom: -200px;
+    z-index: 3;
+    width: 400px;
+    height: 400px;
+    background: #e5f2fa;
+}
+.about-circle {
+    top: 10%; 
+    right: 0%;
+    background: #e5f2fa;
+    width: 300px;
+    height: 50px; 
+}
+.work-circle {
+    top: -20%; 
+    left: 0%;
+    background: #e5f2fa;
+    width: 150px;
+    height: 150px;
+    z-index:3;
+}
+.project-circle {
+    top: 0%; 
+    right: 0%;
+    background: #e5f2fa;
+    width: 200px;
+    height: 200px;
+    z-index:3;
+}
+.project-second-circle {
+    bottom: -15%;
+    left: 0%;
+    background: #e5f2fa; 
+    width: 300px; 
+    height: 300px; 
+}
+.contact-circle {
+    bottom: 0%;
+    right: 0%; 
+    background: #e5f2fa; 
+    width: 300px; 
+    height: 300px;
 }
