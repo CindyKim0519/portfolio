@@ -1,4 +1,12 @@
-$fullwidth : 100%;
+$fullsize: 100%;
+@mixin container {
+    max-width: 1920px;
+    min-width: 1280px;
+    width: 100%;
+}
+@mixin outer-large-padding {
+    padding: 96px;
+}
 html {
     scroll-behavior: smooth;
 }
@@ -6,51 +14,53 @@ body {
     font-family: 'Noto Sans KR', sans-serif;
 }
 .wrapper {
-    max-width: 1920px;
-    min-width: 1280px;
-    width: 100%;
+    @include container
 }
-.font-size-sm {
-    font-size: 15px;
+section, #intro {
+    @include outer-large-padding
 }
-.font-size-md {
-    font-size: 17px;
-}
-.font-size-lg {
-    font-size: 20px;
-}
-.font-size-xl {
-    font-size: 55px;
-}
-header, #intro, .gnb, section {
-    width: $fullwidth;
-}
-#intro {
+#intro, #contact {
     height: 800px;
+}
+.small-circle-blue {
+    background: #74bddd;
+    width: 15px;
+    height: 15px;
+}
+.full-height {
+    height: $fullsize;
 }
 .gnb {
     position: fixed;
     top: 0px;
     background: #97cfe8;
     z-index: 1000;
-    max-width: 1920px;
-    min-width: 1280px;
-}
-.divider-gray-dashed {
-    border-right: 1px dashed #cdcdcd;
+    @include container
 }
 
-.copyright {
-    height: 60px;
+.full-width {
+    width: $fullsize;
+}
+.label-gray-width {
+    width: 120px;
+}
+.half-width-size {
+    width: 50px;
+}
+.slightly-over-half {
+    width: 60px;
+}
+.over-half-width {
+    width: 70px;
+}
+.slightly-less-full {
+    width: 90px;
+}
+.light-blue-background {
+    background: #e5f2fa;
 }
 .project-img-size {
     width: 80%;
-}
-.outer-large-padding {
-    padding: 96px;
-}
-.padding-y-axis {
-    padding: 0px 96px;
 }
 .btn-outline-blue {
     color: #0174aa;
@@ -65,4 +75,31 @@ header, #intro, .gnb, section {
 }
 .text-blue:hover {
     color:#005a84;
+}
+.copyright {
+    height: 60px;
+}
+.padding-y-axis {
+    padding: 0px 96px;
+}
+.font-size-sm {
+    font-size: 15px;
+}
+.font-size-md {
+    font-size: 18px;
+}
+.font-md-plus {
+    font-size: 20px;
+}
+.font-size-lg {
+    font-size: 22px;
+}
+.font-lg-plus {
+    font-size: 30px;
+}
+.font-size-xl {
+    font-size: 50px;
+}
+.font-size-xxl {
+    font-size: 61px;
 }
